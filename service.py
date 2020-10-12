@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 14 09:40:59 2018
-
-@author: Parashar
 """
 from flask import Flask, jsonify,abort,request
 import mysql.connector
@@ -14,15 +12,6 @@ mydb = mysql.connector.connect(
   passwd="dlfysod5v3tovwy5",
   database='okerpdyoctxwjwf0'
 )
-'''
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd="upadhyay16",
-  database='db',
-  port="3306"
-)
-'''
 
 @app.route('/',methods=['GET'])
 def getHome():
