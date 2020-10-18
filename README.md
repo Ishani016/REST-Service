@@ -12,3 +12,6 @@ This files lists the dependencies that have been used to write the code.
 
 # runtime.txt
 This lists python version
+
+# service.py
+This file lists the endpoints that have been written to expose the data
